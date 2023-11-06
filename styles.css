@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  background-color: #c2ec82;
+  animation-name: example;
+  animation-duration: 4s;
+  animation: bgc 5s linear 2s infinite alternate ;
+}
+
+
+h1 {
+  font-size: 5rem;
+  color: #e8dbf3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #5fd6e6;
+
+}
+
+footer {
+  color: #dcdbf3;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+
+.drum {
+  outline: none;
+  border: 10px solid #3c4765;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #67ec46;
+  text-shadow: 3px 0 #dbeff3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 165px;
+  height: 165px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  transition: .5s;
+}
+
+.drum:hover{
+  outline: none;
+  border: 10px solid rgb(109, 143, 97);
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DBEDF3;
+  text-shadow: 3px 0 #67d1eb;
+  border-radius: 15px;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  margin: 10px;
+  background-color: #0f7237;
+}
+footer{
+  color: black;
+}
