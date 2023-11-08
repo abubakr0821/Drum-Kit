@@ -1,7 +1,7 @@
-var buttons = document.querySelectorAll(".drum")
+var nado = document.querySelectorAll(".drum")
 
-for (let i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener("click", function(){
+for (let i = 0; i < nado.length; i++) {
+    nado[i].addEventListener("click", function(){
         alert("Sen meni bostin")
     })
         
